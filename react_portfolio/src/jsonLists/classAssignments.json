@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "appName": "Forrest Gump Word Guess",
+        "repoUrl": "https://github.com/Foscat/Word-Guess-Game",
+        "deployedVersion": "https://foscat.github.io/Word-Guess-Game/",
+        "imageInfo": {
+            "image": "http://beardstyle.net/wp-content/uploads/2016/11/neckbeards-10.jpg",
+            "style": {
+                "height": "200px",
+                "width": "200px"
+            }
+        },
+        "techUsed": ["HTML", "CSS", "JavaScript"],
+        "description": "A simple game that uses vanilla javascript to take random words from a predefined array. It covers unguessed letters with underscores. Guess the word correctly to increase your score run out of guesses your score is 0."
+    },
+    {
+        "id": 2,
+        "appName": "Seinfield Trivia",
+        "repoUrl": "https://github.com/Foscat/Trivia-Game",
+        "deployedVersion": "https://foscat.github.io/Trivia-Game/",
+        "imageInfo": {
+            "image": "http://beardstyle.net/wp-content/uploads/2016/11/neckbeards-10.jpg",
+            "style": {
+                "height": "200px",
+                "width": "200px"
+            }
+        },
+        "techUsed": ["HTML", "CSS", "JavaScript"],
+        "description": "A simple trivia game using vanilla javascript each question is timed. If times runs out before you answer your timout count goes up one. The same is for right and wrong answers. At the end of the game you get a summary of all your scores and the chance to try again."
+    },
+    {
+        "id": 3,
+        "appName": "Crystal Collector",
+        "repoUrl": "https://github.com/Foscat/unit-4-game",
+        "deployedVersion": "https://foscat.github.io/unit-4-game/",
+        "imageInfo": {
+            "image": "http://beardstyle.net/wp-content/uploads/2016/11/neckbeards-10.jpg",
+            "style": {
+                "height": "200px",
+                "width": "200px"
+            }
+        },
+        "techUsed": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "description": "You have 4 crystals that are assigned random values. Click each one to see value but be careful each time you click a crystal you number goes up. Try to click the crystals to make your number match the target number. If you do you get a win on your scorecard if you lose you get a loss on your scorecard."
+
+    },
+    {
+        "id": 4,
+        "appName": "Gif Freak",
+        "repoUrl": "https://github.com/Foscat/gif-buttons",
+        "deployedVersion": "https://foscat.github.io/gif-buttons/",
+        "imageInfo": {
+            "image": "http://beardstyle.net/wp-content/uploads/2016/11/neckbeards-10.jpg",
+            "style": {
+                "height": "200px",
+                "width": "200px"
+            }
+        },
+        "techUsed": ["HTML", "CSS", "JavaScript", "jQuery/ajax", "giphyAPI"],
+        "description": "You get a box of buttons and a input bar that when sumbitted generates a button. When a user clicks a button is makes a api call with the value of the button to the giphy api. The user will see 10 still pictures appear, if clicked the gif will play and will go back to still if clicked again."
+    },
+    {
+        "id": 5,
+        "appName": "Train Timer",
+        "repoUrl": "https://github.com/Foscat/train-timer",
+        "deployedVersion": "https://foscat.github.io/train-timer/",
+        "imageInfo": {
+            "image": "http://beardstyle.net/wp-content/uploads/2016/11/neckbeards-10.jpg",
+            "style": {
+                "height": "200px",
+                "width": "200px"
+            }
+        },
+        "techUsed": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "moment.js", "Google firebase"],
+        "description": "A train time calculator using moment.js to handle current time for schedule math. The user inputs when the next train will arrive and how frequently a train going that way stopps at that station. Given this paramiters it will tell you when the next train will arrive."
+    },
+    {
+        "id": 6,
+        "appName": "Friend Finder",
+        "repoUrl": "https://github.com/Foscat/friend-finder_app",
+        "deployedVersion": "https://pacific-mesa-98675.herokuapp.com/",
+        "imageInfo": {
+            "image": "http://beardstyle.net/wp-content/uploads/2016/11/neckbeards-10.jpg",
+            "style": {
+                "height": "200px",
+                "width": "200px"
+            }
+        },
+        "techUsed": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Heroku", "Node js", "express"],
+        "description": "Take a survey and baised on your answers the sites matching algorithim returns your closest match in db"
+    }
+    
+    
+]

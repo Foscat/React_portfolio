@@ -1,28 +1,46 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {  BrowserRouter as Router, Route, Switch  } from 'react-router-dom';
+import Main from "./components/pages/Main";
+import Portfolio from "./components/pages/Portfolio";
+import NavBar from "./components/pieces/Nav";
 import './App.css';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      loading: false
+    }
+  }
+
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <Router>
+        <div>
+          <NavBar />
+          <Switch>
+            <Route exact path="/" render={() => (
+              <Main
+                // search={this.state.user}
+                // selected={this.state.grabbed}
+              />
+            )} />
+            <Route exact path="/portfolio" render={() => (
+              <Portfolio
+                // search={this.state.user}
+                // selected={this.state.grabbed}
+              />
+            )} />
+            {/* <Route component={NoMatch} /> */}
+          </Switch>
       </div>
-    );
+    </Router>
+    )
   }
-}
+
+};// End App router component
 
 export default App;
